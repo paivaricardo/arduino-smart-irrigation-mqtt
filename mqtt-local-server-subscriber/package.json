@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-local-server-subscriber",
+  "version": "1.0.0",
+  "description": "Servidor Web, em NodeJS (framework Express), configurado como subscriber para um servidor MQTT, para recebimento de mensagens oriundas do sistema de irrigação.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Paiva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mqtt": "^4.3.7"
+  }
+}
